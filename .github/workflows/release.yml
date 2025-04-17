@@ -10,6 +10,7 @@ on:
 jobs:
   release:
     name: Release
+    environment: GPG_PRIVATE_KEY
     permissions:
       contents: write
       packages: write
