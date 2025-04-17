@@ -9,7 +9,7 @@ import app.revanced.util.getNode
 val exportAndroidDataDocumentsProviderPatch = resourcePatch(
     name = "Export Android/Data documents provider",
     description = "Exports a documents provider that grants access to the Android/Data/<appid> directory of this app " +
-        "to file managers and other apps that support the Storage Access Framework.",
+        "to file managers and other apps that support the Storage Access Framework. ",
     use = false,
 ) {
     dependsOn(
