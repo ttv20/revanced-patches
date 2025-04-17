@@ -2,7 +2,7 @@ android {
     namespace = "app.revanced.extension"
 
     defaultConfig {
-        minSdk = 21
+        minSdk = 22
     }
 
     compileOptions {
